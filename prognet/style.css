@@ -1,0 +1,31 @@
+.navbar {
+    border-bottom: 2px solid #6f42c1; /* Tambahkan garis bawah untuk menonjolkan navbar */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500; /* Ukuran font yang lebih tebal untuk tautan */
+    transition: color 0.3s; /* Transisi halus untuk efek hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Mengubah warna teks saat hover */
+    background-color: #6f42c1; /* Menambahkan latar belakang saat hover */
+    border-radius: 5px; /* Membuat sudut bulat pada tautan saat hover */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Ukuran font lebih besar untuk judul navbar */
+    font-weight: 700; /* Membuat judul navbar lebih tebal */
+}
+
+.navbar-toggler {
+    border: none; /* Menghilangkan border pada tombol toggler */
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Menghilangkan outline pada tombol saat fokus */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Mengubah warna ikon toggler */
+}
